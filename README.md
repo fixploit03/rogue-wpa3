@@ -1,11 +1,11 @@
-# Cara Menggunakan
+## Cara Menggunakan
 1. Jalankan Rogue AP
 2. Capture trafik
 3. Copy nilai kunci TK
 4. Buka Wireshark
 5. Decrypt
    
-# Cara Decrypt
+## Cara Decrypt
 1. Buka file capture
 2. Klik menu `Edit` ⟶ `Preferences` ⟶ `Protocols` ⟶ `IEEE 802.11`
 3. Centang box `Enable decryption`
