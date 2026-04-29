@@ -1,18 +1,6 @@
 Rogue OWE
 ---------
-Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK. 
-
-Cara Instal
------------
-https://github.com/fixploit03/rogue-owe/blob/main/INSTAL
-
-Cara Menggunakan
-----------------
-1. Jalankan Rogue AP
-2. Capture trafik
-3. Copy nilai kunci TK
-4. Stop capture
-5. Decrypt
+Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK.
 
 Referensi
 ---------
