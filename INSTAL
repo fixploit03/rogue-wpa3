@@ -14,5 +14,5 @@ ldconfig
 # instal rogue_wpa3
 cd ~
 git clone https://github.com/fixploit03/rogue-wpa3.git
-cd rogue-wpa3.git
+cd rogue-wpa3
 chmod +x rogue_wpa3.sh
