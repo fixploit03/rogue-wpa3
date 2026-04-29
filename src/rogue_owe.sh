@@ -6,8 +6,8 @@
 set -e
 
 # cek jumlah argumen
-if [[ "${#}" -ne 2 ]]; then
-	echo "Usage: sudo ${0} <interface_ap> <interface_internet>"
+if [[ "${#}" -ne 3 ]]; then
+	echo "Usage: sudo ${0} <interface_ap> <interface_internet> <ssid>"
 	exit 1
 fi
 
@@ -21,10 +21,17 @@ fi
 banner="rogue owe"
 interface_ap="${1}"
 interface_internet="${2}"
+ssid="${3}"
 ip_address="10.10.10.1/24"
 conf_dhcp="dnsmasq.conf"
 conf_ap="hostapd.conf"
 log="log.txt"
+
+# validasi ssid
+if [[ "${#ssid}" -gt 32 ]]; then
+	echo "ERROR: Panjang SSID tidak valid!"
+	exit 1
+fi
 
 # buat udahan teken (CTRL+C)
 udahan(){
@@ -77,7 +84,7 @@ echo "[*] Bikin config hostapd..."
 cat <<EOF> "${conf_ap}"
 interface=${interface_ap}
 driver=nl80211
-ssid=TESTING
+ssid=${ssid}
 hw_mode=g
 channel=11
 wpa=2
