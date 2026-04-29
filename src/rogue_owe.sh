@@ -5,15 +5,15 @@
 
 set -e
 
-# cek jumlah argumen
-if [[ "${#}" -ne 3 ]]; then
-	echo "Usage: sudo ${0} <interface_ap> <interface_internet> <ssid>"
-	exit 1
-fi
-
 # cek root
 if [[ "${EUID}" -ne 0 ]]; then
 	echo "ERROR: Script ini harus dijalankan sebagai root!"
+	exit 1
+fi
+
+# cek jumlah argumen
+if [[ "${#}" -ne 3 ]]; then
+	echo "Usage: sudo ${0} <interface_ap> <interface_internet> <ssid>"
 	exit 1
 fi
 
