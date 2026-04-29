@@ -25,3 +25,8 @@ Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci T
 ## Screenshot
 
 <img src="https://github.com/fixploit03/rogue-owe/blob/main/img/wireshark.png" width="800"/>
+
+## Referensi
+- [Wi-Fi CERTIFIED Enhanced Open™](https://www.wi-fi.org/beacon/dan-harkins/wi-fi-certified-enhanced-open-transparent-wi-fi-protections-without-complexity)
+- [RFC 8110 Opportunistic Wireless Encryption](https://www.rfc-editor.org/rfc/rfc8110.html)
+- [Pertukaran kunci Diffie–Hellman](https://id.wikipedia.org/wiki/Pertukaran_kunci_Diffie%E2%80%93Hellman)
