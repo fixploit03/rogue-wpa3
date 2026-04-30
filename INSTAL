@@ -15,4 +15,4 @@ ldconfig
 cd ~
 git clone https://github.com/fixploit03/rogue-owe.git
 cd rogue-owe3/src
-chmod +x rogue_owe.sh
+chmod +x rogue_owe.sh decrypt.sh
