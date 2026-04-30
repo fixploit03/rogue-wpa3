@@ -1,9 +1,14 @@
 Rogue OWE
 ---------
-Decrypt trafik Wi-Fi OWE (Opportunistic Wireless Encryption) menggunakan kunci TK.
+Script Bash sederhana yang dirancang untuk membuat Rogue AP dengan keamanan OWE (Opportunistic Wireless Encryption). Tujuan dari Rogue AP ini adalah untuk mengekstrak kunci TK milik client yang terhubung. Kunci tersebut kemudian dapat digunakan untuk mendekripsi trafik Wi-Fi yang terenkripsi.
+
+Disclaimer!
+-----------
+Script ini dibuat untuk tujuan edukasi dan penelitian keamanan jaringan.
 
 Referensi
 ---------
 - https://www.wi-fi.org/beacon/dan-harkins/wi-fi-certified-enhanced-open-transparent-wi-fi-protections-without-complexity
 - https://www.rfc-editor.org/rfc/rfc8110.html
 - https://id.wikipedia.org/wiki/Pertukaran_kunci_Diffie%E2%80%93Hellman
+- https://networklessons.com/wireless/wpa-key-hierarchy-explained
