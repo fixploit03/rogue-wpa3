@@ -3,6 +3,7 @@ apt update
 apt install build-essential libssl-dev libnl-3-dev libnl-genl-3-dev pkg-config dnsmasq psmisc figlet iw iptables tshark git wget
 
 # instal hostapd
+cd /opt
 wget -4 https://w1.fi/releases/hostapd-2.11.tar.gz
 tar -zxf hostapd-2.11.tar.gz
 cd hostapd-2.11/hostapd
