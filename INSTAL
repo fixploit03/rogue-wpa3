@@ -1,6 +1,6 @@
 # update & instal dependensi
 apt update
-apt install build-essential libssl-dev libnl-3-dev libnl-genl-3-dev pkg-config dnsmasq psmisc figlet iw iptables tshark git wget
+apt install build-essential libssl-dev libnl-3-dev libnl-genl-3-dev pkg-config dnsmasq psmisc figlet iw iptables git wget
 
 # instal hostapd
 cd /opt
@@ -16,4 +16,4 @@ ldconfig
 cd ~
 git clone https://github.com/fixploit03/rogue-owe.git
 cd rogue-owe/src
-chmod +x rogue_owe.sh decrypt.sh
+chmod +x rogue_owe.sh
