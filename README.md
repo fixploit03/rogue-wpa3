@@ -1,4 +1,7 @@
 # Rogue OWE
+
+<img src="https://github.com/fixploit03/rogue-owe/blob/main/img/rogue%20owe.png" width=800/>
+
 Script Bash sederhana yang dirancang untuk membuat Rogue AP dengan keamanan OWE (Opportunistic Wireless Encryption). Tujuan dari Rogue AP ini adalah mengekstrak PMK (Pairwise Master Key) milik client yang terhubung, yang diperoleh dari log hostapd selama proses handshake OWE berlangsung. PMK tersebut kemudian dapat digunakan untuk mendekripsi trafik Wi-Fi yang terenkripsi.
 
 > [!WARNING]
@@ -11,3 +14,4 @@ Script Bash sederhana yang dirancang untuk membuat Rogue AP dengan keamanan OWE 
 - [RFC 8110 Opportunistic Wireless Encryption](https://www.rfc-editor.org/rfc/rfc8110.html)
 - [Pertukaran kunci Diffie–Hellman](https://id.wikipedia.org/wiki/Pertukaran_kunci_Diffie%E2%80%93Hellman)
 - [WPA Key Hierarchy Explained](https://networklessons.com/wireless/wpa-key-hierarchy-explained)
+- [hostapd: IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/WPA3/EAP/RADIUS Authenticator](https://w1.fi/hostapd/)
